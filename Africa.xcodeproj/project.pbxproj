@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1042F835283D5FF7005008D8 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1042F834283D5FF7005008D8 /* Stickers.xcassets */; };
 		1042F839283D5FF7005008D8 /* Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1042F832283D5FF5005008D8 /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1042F83F283D615B005008D8 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1042F83E283D615B005008D8 /* CreditsView.swift */; };
+		1042F842283D62BA005008D8 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1042F841283D62BA005008D8 /* CenterModifier.swift */; };
 		10617D05283D500500D48152 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10617D04283D500500D48152 /* MotionAnimationView.swift */; };
 		10617D07283D5B9800D48152 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10617D06283D5B9800D48152 /* GridItemView.swift */; };
 		10C4C0FC283D1E5C003F8312 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C4C0FB283D1E5C003F8312 /* AfricaApp.swift */; };
@@ -80,6 +82,8 @@
 		1042F832283D5FF5005008D8 /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1042F834283D5FF7005008D8 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		1042F836283D5FF7005008D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1042F83E283D615B005008D8 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		1042F841283D62BA005008D8 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		10617D04283D500500D48152 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		10617D06283D5B9800D48152 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
 		10C4C0F8283D1E5C003F8312 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +149,14 @@
 			path = Stickers;
 			sourceTree = "<group>";
 		};
+		1042F840283D629A005008D8 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				1042F841283D62BA005008D8 /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		10C4C0EF283D1E5C003F8312 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +178,7 @@
 		10C4C0FA283D1E5C003F8312 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				1042F840283D629A005008D8 /* Modifier */,
 				10CA155C283D41440014EEDA /* Helper */,
 				10C4C137283D252C003F8312 /* Extension */,
 				10C4C134283D24A2003F8312 /* Model */,
@@ -245,6 +258,7 @@
 				10CA1561283D46C90014EEDA /* MapAnnotationView.swift */,
 				10617D04283D500500D48152 /* MotionAnimationView.swift */,
 				10617D06283D5B9800D48152 /* GridItemView.swift */,
+				1042F83E283D615B005008D8 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -410,8 +424,10 @@
 				10C4C12E283D2244003F8312 /* GalleryView.swift in Sources */,
 				10617D07283D5B9800D48152 /* GridItemView.swift in Sources */,
 				10F4E31B283D329B0079BF63 /* InsetGalleryView.swift in Sources */,
+				1042F83F283D615B005008D8 /* CreditsView.swift in Sources */,
 				10C4C139283D253F003F8312 /* CodableBundleExtension.swift in Sources */,
 				10617D05283D500500D48152 /* MotionAnimationView.swift in Sources */,
+				1042F842283D62BA005008D8 /* CenterModifier.swift in Sources */,
 				10F4E319283D30800079BF63 /* HeadingView.swift in Sources */,
 				10CA155A283D40860014EEDA /* VideoPlayerView.swift in Sources */,
 			);
